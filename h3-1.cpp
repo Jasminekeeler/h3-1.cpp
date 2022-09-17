@@ -73,22 +73,22 @@ int main()
 				 }
 				 break;
     
-    case 4:  // Area of a parallelogram
-           cout << "Enter the length of the base:\n";
+              case 4:  // Area of a parallelogram
+                           cout << "Enter the length of the base:\n";
 			
-         cin>> base;
+                                cin>> base;
 			
-         cout << "Enter the parallelogram's height:\n";
-         cin >> height;
+                                cout << "Enter the parallelogram's height:\n";
+                                cin >> height;
 
-         if (base < 0 || height <0)
-           cout << "\nOnly enter positive values for base and height.\n";
-         else
-         {    area = base *height;
+                                if (base < 0 || height <0)
+                                        cout << "\nOnly enter positive values for base and height.\n";
+                                else
+                               {    area = base *height;
 	  
-            cout << "\nThe area is " << area << endl;
-           }
-          break;
+                                    cout << "\nThe area is " << area << endl;
+                               }
+                               break;
     
 		case 5:	 cout << "\nBye!\n";
 			     break;
