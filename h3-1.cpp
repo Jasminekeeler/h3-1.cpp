@@ -26,7 +26,8 @@ int main()
 	cout << "3. Calculate the area of a Triangle\n";
   cout << "4. Calculate the area of a Parallelogram\n";
 	cout << "5. Quit\n\n";
-	cout << "Enter your choice (1-5):  \n";
+	cout << "Enter your choice (1-5):\n";
+	
 	cin >> choice;
 
 	// Calculate and display the area of the selected shape
@@ -74,6 +75,7 @@ int main()
     
     case 4:  // Area of a parallelogram
            cout << "Enter the length of the base:\n";
+			
          cin>> base;
 			
          cout << "Enter the parallelogram's height:\n";
@@ -83,6 +85,7 @@ int main()
            cout << "\nOnly enter positive values for base and height.\n";
          else
          {    area = base *height;
+	  
             cout << "\nThe area is " << area << endl;
            }
           break;
