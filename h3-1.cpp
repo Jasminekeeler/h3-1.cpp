@@ -90,7 +90,7 @@ int main()
 		case 5:	 cout << "\nBye!\n";
 			     break;
 
-		default:  cout << "\nYou may only enter 1, 2, 3, 4 or 5.\n";
+		default:  cout << "\nYou may only enter 1, 2, 3, 4, or 5.\n";
 	}
 	return 0;
 }
