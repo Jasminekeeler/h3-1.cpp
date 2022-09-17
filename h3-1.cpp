@@ -26,7 +26,7 @@ int main()
 	cout << "3. Calculate the area of a Triangle\n";
   cout << "4. Calculate the area of a Parallelogram\n";
 	cout << "5. Quit\n\n";
-	cout << "Enter your choice (1-4):\n";
+	cout << "Enter your choice (1-5):\n";
 	cin >> choice;
 
 	// Calculate and display the area of the selected shape
@@ -89,7 +89,7 @@ int main()
 		case 5:	 cout << "\nBye!\n";
 			     break;
 
-		default:  cout << "\nYou may only enter 1, 2, 3, or 4.\n";
+		default:  cout << "\nYou may only enter 1, 2, 3, 4 or 5.\n";
 	}
 	return 0;
 }
