@@ -60,11 +60,11 @@ int main()
 				 break;
 
 		case 3:  // Area of a triangle
-			     cout << "Enter the length of the base:" << endl;
+			     cout << "Enter the length of the base:\n";
 				 cin  >> base;
-				 cout << "Enter the triangle's height:" << endl;
+				 cout << "Enter the triangle's height:\n";
 					 
-				 cin  >> height;
+			         cin  >> height;
 
 				 if (base < 0 || height < 0)
 					 cout << "\nOnly enter positive values for base and height.\n";
@@ -75,11 +75,11 @@ int main()
 				 break;
     
               case 4:  // Area of a parallelogram
-                           cout << "Enter the length of the base:\n";
+                           cout << "\nEnter the length of the base:" << endl;
 			
                                 cin >> base;
 			
-                                cout << "Enter the parallelogram's height:\n";
+                                cout << "\nEnter the parallelogram's height:" << endl;
                                 cin >> height;
 
                                 if (base < 0 || height <0)
